@@ -1,3 +1,20 @@
+# Readme prueba Pizza Habi
+Tanto para el back como el front se debe correr npm install para las librerias.
+Para correr el proyecto se debe usar npm run start por defecto local host 3000,
+Al mismo tiempo se debe correr el back end , el cual esta desarrollado en node js. por lo que tambien
+se corre con npm star( o node index.js) por defecto en el localhost 4000
+El proyecto cuenta con las rutas
+Home create (/) 
+/create
+Donde se puede dirigir a create pizza (/create)
+/save
+De alli luego de añadir los ingredientes se dirige a (/save) 
+donde se llena el formulario con al informacion para guardar la pizza.
+/dashboard
+Luego de gurdar es posible ver la pizza creada en el dashboard , el cual consulta a la base de datos 
+/detail
+Se puede acceder al detalle de las pizzas con el link ..mas done dirgie a la ruta de detalle
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
